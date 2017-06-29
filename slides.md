@@ -138,7 +138,6 @@ docker run --rm francescou/hello
 ```bash
 docker run --rm \
   --env '-Xmx64m' \
-  --publish 8787:8787 \
   francescou/hello
 ```
 
