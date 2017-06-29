@@ -189,7 +189,7 @@ COPY --from=build-env /app/target/*.jar app.jar
 
 ```bash
 docker build --tag francescou/spring-boot-redis \
-  --file Dockerfile.multistep .
+  --file Dockerfile.multistage .
 ```
 
 <https://github.com/jzaccone/office-space-dockercon2017/>
